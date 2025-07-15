@@ -1,0 +1,20 @@
+.themeToggle {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+  transition: opacity 0.5s ease;
+}
+
+.themeToggle:hover {
+  opacity: 0.5;
+}
+
+.light .themeToggle {
+  border: 3px dotted var(--black);
+}
+
+.dark .themeToggle {
+  border: 3px dotted var(--white);
+}

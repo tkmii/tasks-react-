@@ -1,0 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+}

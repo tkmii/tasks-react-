@@ -1,0 +1,31 @@
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task {
+  border: 1px solid rgb(200, 192, 192);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input label {
+  flex-shrink: 0;
+  font-size: 20px;
+}
+
+.input button {
+  padding: 10px 15px;
+  background-color: rgb(232, 218, 245);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: background-color 0.5s ease, border 0.5s ease;
+}
+
+.input button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(232, 218, 245);
+}

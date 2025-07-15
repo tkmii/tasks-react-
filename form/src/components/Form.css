@@ -1,0 +1,17 @@
+.form-submit {
+  padding: 10px;
+  background-color: rgb(107, 107, 255);
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+  border: 1px solid transparent;
+}
+
+.form-submit:hover {
+  background-color: #ffffff;
+  color: rgb(107, 107, 255);
+  border: 1px solid rgb(107, 107, 255);
+}

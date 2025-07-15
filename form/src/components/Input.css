@@ -1,0 +1,23 @@
+.field {
+  display: flex;
+  gap: 5px 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.field label {
+  width: calc(20% - 5px);
+}
+
+.field input {
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(80% - 5px);
+}
+
+.error {
+  color: rgb(253, 78, 78);
+  font-size: 14px;
+}

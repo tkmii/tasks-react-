@@ -1,0 +1,12 @@
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  line-height: 120%;
+  margin-bottom: 15px;
+}

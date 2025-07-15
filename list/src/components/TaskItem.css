@@ -1,0 +1,27 @@
+.item-task {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+
+.text-task {
+  font-size: 18px;
+}
+
+.reset {
+  padding: 10px;
+  background-color: rgb(187, 222, 242);
+  margin-right: 0;
+  margin-left: auto;
+  transition: opacity 0.5s ease;
+}
+
+.reset:hover {
+  opacity: 0.5;
+}

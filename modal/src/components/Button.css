@@ -1,0 +1,13 @@
+.button-modal {
+  padding: 15px;
+  font-size: 18px;
+  border: 3px dotted rgb(143, 143, 245);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.button-modal:hover {
+  background-color: rgb(143, 143, 245);
+  color: #fff;
+}
